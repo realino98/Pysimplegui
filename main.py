@@ -4,7 +4,7 @@ sg.theme("DarkAmber")
 
 layout = [
     [sg.Text("Password : "), sg.InputText("")],
-    [sg.Text("Username : "), sg.InputText("")],
+    [name('Image'), sg.Image(sg.EMOJI_BASE64_HAPPY_THUMBS_UP)],
     [sg.Button("Login"), sg.Button("Exit")]
 ]
 
